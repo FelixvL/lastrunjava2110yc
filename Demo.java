@@ -1,5 +1,5 @@
-class Demo{   // SI
-	public static void main(String... ab) throws Exception{
+class Demo{   // SJ
+	public static void main(String... ab){
 		Kip kap = new Kip();
 		try{
 			kap.herewego();
@@ -8,7 +8,7 @@ class Demo{   // SI
 		}finally{
 			System.out.println("ai");
 		}	
-		System.out.println("tuk");
+		System.out.println("tek");
 	}
 }
 
