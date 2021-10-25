@@ -1,8 +1,8 @@
-class Demo{   // SB
+class Demo{   // SC
 	public static void main(String... ab){
 		Kip kap = new Kip();
 		kap.herewego();
-		System.out.println("tok");
+		System.out.println("tik");
 	}
 }
 
@@ -15,4 +15,4 @@ class Kip{
 
 }
 
-class NoEggsException extends RuntimeException{}
+class NoEggsException extends Exception{}
