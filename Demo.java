@@ -1,22 +1,22 @@
-class Demo{   // SH
-	public static void main(String... ab) throws NoEggsException{
+class Demo{   // SI
+	public static void main(String... ab) throws Exception{
 		Kip kap = new Kip();
 		try{
 			kap.herewego();
-		}catch(Exception e){
+		}catch(NoEggsException e){
 			System.out.println("oei");
 		}finally{
 			System.out.println("ai");
 		}	
-		System.out.println("tik");
+		System.out.println("tuk");
 	}
 }
 
 class Kip{
 	boolean boos;
-	int herewego() throws NoEggsException{
+	int herewego() throws Exception{
 		System.out.println("de kip is boos? " + boos);
-		return 12;
+		throw new NoEggsException();
 	}
 
 }
