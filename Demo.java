@@ -1,21 +1,22 @@
-class Demo{   // SN
+class Demo{   // SO
 	public static void main(String... ab){
 		Q q = new E();
-		L l = new Q();
+		L l = new E();
+		q.i();
 		System.out.println("ready");
 	}
 }
 
-class Q{
-
-
+abstract class Q{		
+	
 }
 
-
-class E extends Q implements L{
-
+class E extends Q implements L{           
+	void i(){
+		System.out.println("in E de i");
+	}
 }
 
-interface L{
-
+interface L{       
+	void i();
 }
