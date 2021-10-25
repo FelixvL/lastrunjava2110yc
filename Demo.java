@@ -1,14 +1,14 @@
-class Demo{   // SG
+class Demo{   // SH
 	public static void main(String... ab) throws NoEggsException{
 		Kip kap = new Kip();
 		try{
-			int a = 6;
 			kap.herewego();
 		}catch(Exception e){
-			a = 7;
 			System.out.println("oei");
+		}finally{
+			System.out.println("ai");
 		}	
-		System.out.println("tik" + a);
+		System.out.println("tik");
 	}
 }
 
@@ -16,7 +16,7 @@ class Kip{
 	boolean boos;
 	int herewego() throws NoEggsException{
 		System.out.println("de kip is boos? " + boos);
-		throw new NoEggsException();
+		return 12;
 	}
 
 }
