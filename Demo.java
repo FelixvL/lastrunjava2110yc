@@ -1,26 +1,21 @@
-class Demo{   // SL
+class Demo{   // SN
 	public static void main(String... ab){
-		Kip kap = new Kip();
-		try{
-			kap.herewego();
-		}catch(NoEggsException e){
-			System.out.println("oei");
-		}catch(Exception e){
-			System.out.println("lol");
-		}finally{
-			System.out.println("ai");
-		}	
-		System.out.println("tek");
+		Q q = new E();
+		L l = new Q();
+		System.out.println("ready");
 	}
 }
 
-class Kip{
-	boolean boos;
-	int herewego() throws Exception{
-		System.out.println("de kip is boos? " + boos);
-		throw new NoEggsException();
-	}
+class Q{
+
 
 }
 
-class NoEggsException extends Error{}
+
+class E extends Q implements L{
+
+}
+
+interface L{
+
+}
