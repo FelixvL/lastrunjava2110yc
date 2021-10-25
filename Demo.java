@@ -1,4 +1,4 @@
-class Demo{   // SA
+class Demo{   // SB
 	public static void main(String... ab){
 		Kip kap = new Kip();
 		kap.herewego();
@@ -8,9 +8,11 @@ class Demo{   // SA
 
 class Kip{
 	boolean boos;
-	static int herewego(){
+	int herewego() throws NoEggsException{
 		System.out.println("de kip is boos? " + boos);
 		return 9;
 	}
 
 }
+
+class NoEggsException extends RuntimeException{}
