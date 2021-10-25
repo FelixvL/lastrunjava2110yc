@@ -1,8 +1,10 @@
-class Demo{   // SJ
+class Demo{   // SK
 	public static void main(String... ab){
 		Kip kap = new Kip();
 		try{
 			kap.herewego();
+		}catch(Exception e){
+			System.out.println("oei");
 		}catch(NoEggsException e){
 			System.out.println("oei");
 		}finally{
