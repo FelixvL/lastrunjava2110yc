@@ -1,12 +1,12 @@
-class Demo{   // SK
+class Demo{   // SL
 	public static void main(String... ab){
 		Kip kap = new Kip();
 		try{
 			kap.herewego();
-		}catch(Exception e){
-			System.out.println("oei");
 		}catch(NoEggsException e){
 			System.out.println("oei");
+		}catch(Exception e){
+			System.out.println("lol");
 		}finally{
 			System.out.println("ai");
 		}	
@@ -23,4 +23,4 @@ class Kip{
 
 }
 
-class NoEggsException extends Exception{}
+class NoEggsException extends Error{}
