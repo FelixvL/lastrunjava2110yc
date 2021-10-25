@@ -1,4 +1,4 @@
-class Demo{   // SC
+class Demo{   // SD
 	public static void main(String... ab){
 		Kip kap = new Kip();
 		kap.herewego();
@@ -15,4 +15,4 @@ class Kip{
 
 }
 
-class NoEggsException extends Exception{}
+class NoEggsException extends Exceptions{}
