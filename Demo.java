@@ -1,12 +1,11 @@
-class Demo{   // NG
+class Demo{   // NH
 	public static void main(String... ab){
 		System.out.println("oei");
 	}
 }
 
 class Anders{
-
 	void hup(){
-		throw new Error();
+		throw new Exception();
 	}
 }
