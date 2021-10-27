@@ -1,4 +1,4 @@
-class Demo{   // NW   
+class Demo{   // NX   
 	final static public void main(String[] ab){ 
 		System.out.println("he");
 		C a = new B();
@@ -7,7 +7,7 @@ class Demo{   // NW
 	}
 }
 class A implements C{
-	void gaan(){
+	public void gaan(){
 		System.out.println("gaan in a");
 	}
 }
@@ -16,5 +16,6 @@ class B extends A{
 
 }
 interface C{
+	int d;
 	void gaan();
 }
