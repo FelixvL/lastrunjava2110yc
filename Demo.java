@@ -1,9 +1,20 @@
-class Demo{   // NV   
+class Demo{   // NW   
 	final static public void main(String[] ab){ 
 		System.out.println("he");
-		oei();
+		C a = new B();
+		a.gaan();
+		System.out.println("ho");
 	}
-	static void oei(int... daargaanwe){
-		System.out.println(daargaanwe.length);
+}
+class A implements C{
+	void gaan(){
+		System.out.println("gaan in a");
 	}
+}
+
+class B extends A{
+
+}
+interface C{
+	void gaan();
 }
