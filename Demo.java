@@ -1,4 +1,4 @@
-class Demo{   // NN
+class Demo{   // NO
 	public static void main(String... ab){ 
 		System.out.println("ei");
 		Anders hetzelfde = new Anders();
@@ -13,8 +13,15 @@ class Demo{   // NN
 	}
 }
 
-class Anders{
+class Anders implements H{
 	void hup(){
 		throw new Error();
 	}
+	Object gaan(){
+		return new H();
+	}
+}
+
+interface H{
+
 }
