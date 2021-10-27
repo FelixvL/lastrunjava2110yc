@@ -1,5 +1,5 @@
-class Demo{   // NL
-	public static void main(String... ab) 
+class Demo{   // NM
+	public static void main(String... ab){ 
 		System.out.println("ei");
 		Anders hetzelfde = new Anders();
 		try{
@@ -13,6 +13,6 @@ class Demo{   // NL
 
 class Anders{
 	void hup() throws Exception{
-		throw new RuntimeException();
+		throw new Error();
 	}
 }
