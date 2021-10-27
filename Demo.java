@@ -1,22 +1,12 @@
-class Demo{   // NF
+class Demo{   // NG
 	public static void main(String... ab){
-		System.out.println("gaan");
-		new Demo().beginnen();
-	}
-	void beginnen(){
-		Go no = new Go();
-		Go so = new Go();
-		no.a = 18;
-		no.hoi();
-		System.out.println(so.a);
+		System.out.println("oei");
 	}
 }
 
-class Go{
-	static int a = 3;
-	static void hoi(){
-		int a = 7;
-		System.out.println(a);
-		this.a = a;
+class Anders{
+
+	void hup(){
+		throw new Error();
 	}
 }
