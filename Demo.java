@@ -1,14 +1,14 @@
-class Demo{   // NC
+class Demo{   // NE
 	public static void main(String... ab){
-		System.out.println("begin");
+		System.out.println("gaan");
 		new Demo().beginnen();
 	}
 	void beginnen(){
 		Go no = new Go();
 		Go so = new Go();
 		no.a = 18;
-		System.out.println(so.a);
 		no.hoi();
+		System.out.println(so.a);
 	}
 }
 
@@ -17,6 +17,6 @@ class Go{
 	void hoi(){
 		int a = 7;
 		System.out.println(a);
-		a = a;
+		this.a = a;
 	}
 }
