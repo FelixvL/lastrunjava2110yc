@@ -1,8 +1,8 @@
-class Demo{   // OB   
+class Demo{   // OC   
 	final static public void main(String[] ab){ 
 		System.out.println("ke");
 		B a = new B();				
-		a.gaan(3);				
+		a.gaan();				
 		System.out.println("ko");
 	}
 }
@@ -13,8 +13,9 @@ class A implements C{
 }
 
 class B extends A{				
-	public void gaan(){		
+	public int gaan(){		
 		System.out.println("gaan in b");
+		return 7;
 	}
 }
 interface C{				
