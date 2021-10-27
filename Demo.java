@@ -1,4 +1,4 @@
-class Demo{   // NE
+class Demo{   // NF
 	public static void main(String... ab){
 		System.out.println("gaan");
 		new Demo().beginnen();
@@ -14,7 +14,7 @@ class Demo{   // NE
 
 class Go{
 	static int a = 3;
-	void hoi(){
+	static void hoi(){
 		int a = 7;
 		System.out.println(a);
 		this.a = a;
