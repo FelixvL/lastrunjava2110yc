@@ -1,11 +1,11 @@
-class Demo{   // NH
+class Demo{   // NI
 	public static void main(String... ab){
-		System.out.println("oei");
+		System.out.println("ei");
 	}
 }
 
 class Anders{
-	void hup(){
+	void hup() throws Exception{
 		throw new Exception();
 	}
 }
