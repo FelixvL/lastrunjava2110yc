@@ -1,14 +1,18 @@
-class Demo{   // NK
-	public static void main(String... ab) throws Exception{
+class Demo{   // NL
+	public static void main(String... ab) 
 		System.out.println("ei");
 		Anders hetzelfde = new Anders();
-		hetzelfde.hup();
+		try{
+			hetzelfde.hup();
+		}catch(Exception e){
+			System.out.println("cc");
+		}
 		System.out.println("einde");
 	}
 }
 
 class Anders{
 	void hup() throws Exception{
-		throw new Exception();
+		throw new RuntimeException();
 	}
 }
