@@ -1,9 +1,9 @@
-class Demo{   // NX   
+class Demo{   // NY   
 	final static public void main(String[] ab){ 
-		System.out.println("he");
-		C a = new B();
-		a.gaan();
-		System.out.println("ho");
+		System.out.println("ke");
+		A a = new B();
+		a.gaan(3);
+		System.out.println("ko");
 	}
 }
 class A implements C{
@@ -13,9 +13,11 @@ class A implements C{
 }
 
 class B extends A{
-
+	public void gaan(int a){
+		System.out.println("gaan in b");
+	}
 }
 interface C{
-	int d;
+	int d = 5;
 	void gaan();
 }
