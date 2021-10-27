@@ -1,4 +1,4 @@
-class Demo{   // OC   
+class Demo{   // OD   
 	final static public void main(String[] ab){ 
 		System.out.println("ke");
 		B a = new B();				
@@ -7,18 +7,19 @@ class Demo{   // OC
 	}
 }
 class A implements C{				
-	public void gaan(){			
+	public B gaan(){			
 		System.out.println("gaan in a");
+		return new B();
 	}
 }
 
 class B extends A{				
-	public int gaan(){		
+	public B gaan(){		
 		System.out.println("gaan in b");
-		return 7;
+		return null;
 	}
 }
 interface C{				
 	int d = 5;
-	void gaan();				
+	B gaan() throws Exception;				
 }
