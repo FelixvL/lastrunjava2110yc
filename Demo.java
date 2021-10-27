@@ -1,4 +1,4 @@
-class Demo{   // OA   
+class Demo{   // OB   
 	final static public void main(String[] ab){ 
 		System.out.println("ke");
 		B a = new B();				
@@ -13,7 +13,7 @@ class A implements C{
 }
 
 class B extends A{				
-	public int gaan(){		
+	public void gaan(){		
 		System.out.println("gaan in b");
 	}
 }
