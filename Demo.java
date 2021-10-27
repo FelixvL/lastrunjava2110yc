@@ -1,6 +1,9 @@
-class Demo{   // NS   java Demo a b c d e 
-	final static public int main(String[] ab){ 
+class Demo{   // NT   
+	final static public void main(String[] ab){ 
 		System.out.println("he"+ab[3]);
-		return 3;
+		oei();
+	}
+	void oei(int... daargaanwe){
+		System.out.println(daargaanwe[daargaanwe.length-1]);
 	}
 }
