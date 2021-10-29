@@ -1,4 +1,4 @@
-class Demo{   // OG  
+class Demo{   // OH  
 	final static public void main(String[] ab) { 
 		HereWeGo go = new HereWeGo();
 		go.gaan();
@@ -7,6 +7,6 @@ class Demo{   // OG
 
 
 
-class HereWeGo{
+abstract class HereWeGo{
 	abstract void gaan();
 }
