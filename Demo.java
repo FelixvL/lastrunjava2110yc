@@ -1,4 +1,4 @@
-class Demo{   // OJ
+class Demo{   // OK
 	final static public void main(String[] ab) { 
 		HereWeGo go = new Rechthoek();
 		go.hup();
@@ -13,8 +13,10 @@ abstract class HereWeGo{
 		System.out.println("hup");
 	}
 }
-class Rond extends HereWeGo{
-
+abstract class Rond extends HereWeGo{
+	void gaan(){
+		System.out.println("we zijn aan het gaan");
+	}
 }
 abstract class Vierkant extends Rond{
 
