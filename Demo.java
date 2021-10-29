@@ -1,7 +1,10 @@
-class Demo{   // OK
+class Demo{   // OL
 	final static public void main(String[] ab) { 
 		HereWeGo go = new Rechthoek();
 		go.hup();
+		go.gaan();
+		Rond r = (Rond)go;
+		r.gaan();
 	}
 }
 
@@ -19,9 +22,12 @@ abstract class Rond extends HereWeGo{
 	}
 }
 abstract class Vierkant extends Rond{
-
+	abstract void gaan();
 }
 class Rechthoek extends Vierkant{
+	void gaan(){
+		System.out.println("gaan bij rechthoek");
+	}
 	static void hup(){
 		System.out.println("huphup");
 	}
