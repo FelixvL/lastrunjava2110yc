@@ -1,7 +1,7 @@
-class Demo{   // OH  
+class Demo{   // OI 
 	final static public void main(String[] ab) { 
-		HereWeGo go = new HereWeGo();
-		go.gaan();
+		HereWeGo go = null;
+		go.hup();
 	}
 }
 
@@ -9,4 +9,7 @@ class Demo{   // OH
 
 abstract class HereWeGo{
 	abstract void gaan();
+	static void hup(){
+		System.out.println("hup");
+	}
 }
