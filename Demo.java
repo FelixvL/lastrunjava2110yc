@@ -7,10 +7,10 @@ class Demo{   // PI
 	}
 }
 
-class AAA{ 
-	void aaa(){
+class AAA implements JJJ{ 
+	public void aaa(){
 		System.out.println("in aaa");
-		throw new Exception();
+		throw new RuntimeException();
 	}
 }
 
@@ -23,5 +23,5 @@ class RRR{
  
 }
 interface JJJ{		
-
+	void aaa() throws Exception;
 }
