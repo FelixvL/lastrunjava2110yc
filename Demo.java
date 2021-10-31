@@ -1,20 +1,27 @@
-class Demo{   // PF
+class Demo{   // PG
 	final static public void main(String[] ab) { 
 		System.out .println("start");
 		AAA a = new QQQ();
-		JJJ b = (JJJ)a;
+		RRR b = (RRR)a;
 		System.out.println("final");
 	}
 }
 
 class AAA{ 
-
+	void aaa(){
+		System.out.println("in aaa");
+		throw new RuntimeException();
+	}
 }
 
 class QQQ extends AAA{ 
-
+	void aaa(){
+		System.out.println("in qqq");
+	}
 }
-
+class RRR{
+ 
+}
 interface JJJ{		
 
 }
