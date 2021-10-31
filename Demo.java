@@ -1,9 +1,9 @@
-class Demo{   // PI
+class Demo{   // PK
 	final static public void main(String[] ab) { 
 		System.out .println("start");
 		AAA a = new QQQ();
 		AAA b = (QQQ)a;
-		System.out.println("final");
+		b.aaa();
 	}
 }
 
@@ -15,7 +15,7 @@ class AAA implements JJJ{
 }
 
 class QQQ extends AAA{ 
-	void aaa(){
+	public void aaa(){
 		System.out.println("in qqq");
 	}
 }
@@ -25,3 +25,8 @@ class RRR{
 interface JJJ{		
 	void aaa() throws Exception;
 }
+
+// zelfde sig
+// covariant returnt
+// access niet nauwer
+// throws covariant of niets
