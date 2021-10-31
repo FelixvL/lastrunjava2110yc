@@ -1,12 +1,32 @@
-class Demo{   // QC
+class Demo{   // QD
 	final static public void main(String[] ab){ 
-		int a = 'e';
-		char c = (char)a;
-		long d = new Long(a);
-		float e = 25.3;
-		System.out.println(d);
+		new WWW().worldwidewebben();
+		System.out.println("ffew");
 	}
 }
 
+class WWW{
+
+	void worldwidewebben(){
+		try{
+			new TTT().proberen();
+		}catch(Exception e){
+			System.out.println("gevangen!");
+		}finally{
+			return;
+		}
+		System.out.println("ik leef nog");
+	}
+
+
+}
+class TTT{
+	void proberen(){
+		throw new HereWeGoException();
+	}
+
+}
+
+class HereWeGoException extends Error{}
 
 //  100 = d
