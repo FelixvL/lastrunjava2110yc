@@ -1,13 +1,14 @@
-class Demo{   // ON
+class Demo{   // OP
 	final static public void main(String[] ab) { 
 		HereWeGo go = new Rechthoek();
 		go.hup();
 		go.gaan();
 		System.out.println(go.a);
-		Rond r = (Rond)go;
+		Vierkant r = (Vierkant)go;
 		r.gaan();
-		r.hup();
-		System.out.println(go.a);
+		System.out.println(r.a);
+		Rechthoek rr = (Rechthoek)r;
+		rr.hup();
 	}
 }
 
