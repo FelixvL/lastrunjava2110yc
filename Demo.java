@@ -1,4 +1,4 @@
-class Demo{   // PS
+class Demo{   // PT
 	final static public void main(String[] ab){ 
 		System.out .println("start");
 		AAA a = new QQQ();
@@ -23,12 +23,8 @@ class RRR{
  
 }
 interface JJJ{		
-	default void bbb() throws Exception{
+	default void bbb(){
 		System.out.println("ik zei het toch");
 	}
 }
 
-// zelfde sig
-// covariant returnt
-// access niet nauwer
-// throws covariant of niets
