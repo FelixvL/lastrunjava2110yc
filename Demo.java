@@ -1,30 +1,9 @@
-class Demo{   // PT
+class Demo{   // PU
 	final static public void main(String[] ab){ 
-		System.out .println("start");
-		AAA a = new QQQ();
-		QQQ b = (QQQ)a;
-		b.bbb();
+		int a = 'e';
+		System.out.println(a);
 	}
 }
 
-class AAA implements JJJ{ 
-	public void aaa(){
-		System.out.println("in aaa");
-		throw new RuntimeException();
-	}
-}
 
-class QQQ extends AAA{ 
-	public void aaa(){
-		System.out.println("in qqq");
-	}
-}
-class RRR{
- 
-}
-interface JJJ{		
-	default void bbb(){
-		System.out.println("ik zei het toch");
-	}
-}
-
+//  100 = d
