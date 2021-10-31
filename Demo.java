@@ -1,9 +1,9 @@
-class Demo{   // PC
+class Demo{   // PD
 	final static public void main(String[] ab) { 
 		System.out .println("start");
-		AAA a = new AAA();
-		AAA b = (QQQ)a;
-		System.out.println("end");
+		AAA a = new QQQ();
+		QQQ b = (QQQ)a;
+		System.out.println("final");
 	}
 }
 
