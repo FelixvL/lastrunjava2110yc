@@ -1,8 +1,10 @@
-class Demo{   //  WT
+class Demo{   //  WU
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
 		try{
 			fiets.fietsen();
+		}catch(BelKapotE be){
+			System.out.println("bel erg kapot");
 		}catch(Exception e){
 			System.out.println("bel kapot");
 		}finally{
@@ -14,7 +16,7 @@ class Demo{   //  WT
 
 class Fiets{
 	Bel bel = new Bel();
-	void fietsen() throws Exception{
+	void fietsen() throws BelKapotE{
 		bel.bellen();
 		System.out.println("ik fiets");
 	}
@@ -22,8 +24,10 @@ class Fiets{
 }
 
 class Bel{
-	void bellen() throws Exception{
+	void bellen()throws Exception{
 		System.out.println("ik ben aan het bellen");
 		throw new Exception();
 	}
 } 
+
+class BelKapotE extends Exception{}
