@@ -1,5 +1,5 @@
-class Demo{   //  WA
+class Demo{   //  WB
 	final static public void main(String[] ab){
-		System.out.println(010);
+		System.out.println(080);
 	}
 }
