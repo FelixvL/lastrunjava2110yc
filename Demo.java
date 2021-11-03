@@ -1,12 +1,12 @@
-class Demo{   //  WQ
+class Demo{   //  WR
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
-		System.out.println(fiets.bel);
+		fiets.fietsen();
 	}
 }
 
 class Fiets{
-	Bel bel;
+	Bel bel = new Bel();
 	void fietsen(){
 		bel.bellen();
 		System.out.println("ik fiets");
