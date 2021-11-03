@@ -1,33 +1,5 @@
-class Demo{   // QD
+class Demo{   //  WA
 	final static public void main(String[] ab){
-		System.out.println("hoi"); 
-		new WWW().worldwidewebben();
-		System.out.println("ffew");
+		System.out.println(010);
 	}
 }
-
-class WWW{
-
-	void worldwidewebben(){
-		try{
-			new TTT().proberen();
-		}catch(Exception e){
-			System.out.println("gevangen!");
-		}finally{
-			System.out.println("in finally");
-		}
-		System.out.println("ik leef nog");
-	}
-
-
-}
-class TTT{
-	void proberen(){
-		throw new HereWeGoException();
-	}
-
-}
-
-class HereWeGoException extends Error{}
-
-//  100 = d
