@@ -1,4 +1,4 @@
-class Demo{   //  WK
+class Demo{   //  WM
 	final static public void main(String[] ab){
 		WWWB vb = new VB();
 		vb.gaan(true);
@@ -13,6 +13,7 @@ class Demo{   //  WK
 	}
 }
 class WWWB{
+	int a = gaan(true);
 	int gaan(boolean g){
 		return 24;
 	}
