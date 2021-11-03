@@ -1,5 +1,13 @@
-class Demo{   //  WC
+class Demo{   //  WD
 	final static public void main(String[] ab){
-		System.out.println(0X1g);
+		lopen();
+		lopen(3);
+		System.out.println("einde");
+	}
+	void lopen(){
+		System.out.println("lopen1");
+	}
+	void lopen(int a){
+		System.out.println("lopen2");		
 	}
 }
