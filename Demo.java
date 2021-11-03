@@ -1,4 +1,4 @@
-class Demo{   //  WF
+class Demo{   //  WG
 	final static public void main(String[] ab){
 		lopen(new VB().gaan(true));
 		System.out.println("einde");
@@ -12,9 +12,14 @@ class Demo{   //  WF
 }
 
 class VB{
+	int a = gaan(false);
 	int gaan(boolean t){
-		System.out.println("lopen3");
-		return 7;
+		if(t){
+			System.out.println("lopen3");
+			return 7;
+		}else{
+			System.out.println("lopen5");
+		}
 	}
 	float gaan(char w){
 		System.out.println("lopen4");
