@@ -1,5 +1,6 @@
 class Demo{   // QD
-	final static public void main(String[] ab){ 
+	final static public void main(String[] ab){
+		System.out.println("hoi"); 
 		new WWW().worldwidewebben();
 		System.out.println("ffew");
 	}
@@ -13,7 +14,7 @@ class WWW{
 		}catch(Exception e){
 			System.out.println("gevangen!");
 		}finally{
-			return;
+			System.out.println("in finally");
 		}
 		System.out.println("ik leef nog");
 	}
