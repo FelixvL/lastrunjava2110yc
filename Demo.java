@@ -1,6 +1,6 @@
-class Demo{   //  WJ
+class Demo{   //  WK
 	final static public void main(String[] ab){
-		VB vb = new VB();
+		WWWB vb = new VB();
 		vb.gaan(true);
 		System.out.println(vb.a);
 		System.out.println("einde");
