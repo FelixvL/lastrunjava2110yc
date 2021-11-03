@@ -1,4 +1,4 @@
-class Demo{   //  WS
+class Demo{   //  WT
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
 		try{
@@ -14,7 +14,7 @@ class Demo{   //  WS
 
 class Fiets{
 	Bel bel = new Bel();
-	void fietsen(){
+	void fietsen() throws Exception{
 		bel.bellen();
 		System.out.println("ik fiets");
 	}
