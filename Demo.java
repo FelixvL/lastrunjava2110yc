@@ -1,6 +1,8 @@
-class Demo{   //  WH
+class Demo{   //  WI
 	final static public void main(String[] ab){
-		lopen(new VB().gaan(true));
+		VB vb = new VB();
+		vb.gaan(false)
+		System.out.println(vb.a);
 		System.out.println("einde");
 	}
 	static void lopen(double v){
@@ -10,8 +12,12 @@ class Demo{   //  WH
 		System.out.println("lopen2-"+a);		
 	}
 }
-
-class VB{
+class WWWB{
+	int gaan(boolean g){
+		return 24;
+	}
+}
+class VB extends WWWB{
 	int a = gaan(false);
 	int gaan(boolean t){
 		if(t){
