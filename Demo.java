@@ -1,7 +1,14 @@
-class Demo{   //  WR
+class Demo{   //  WS
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
-		fiets.fietsen();
+		try{
+			fiets.fietsen();
+		}catch(Exception e){
+			System.out.println("bel kapot");
+		}finally{
+			System.out.println("a");
+		}
+		System.out.println("b");
 	}
 }
 
@@ -15,8 +22,8 @@ class Fiets{
 }
 
 class Bel{
-	void bellen(){
+	void bellen() throws Exception{
 		System.out.println("ik ben aan het bellen");
-		throw new RuntimeException();
+		throw new Exception();
 	}
 } 
