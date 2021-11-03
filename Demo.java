@@ -1,37 +1,22 @@
-class Demo{   //  WM
+class Demo{   //  WO
 	final static public void main(String[] ab){
-		WWWB vb = new VB();
-		vb.gaan(true);
-		System.out.println(vb.a);
-		System.out.println("einde");
-	}
-	static void lopen(double v){
-		System.out.println("lopen1-"+v);
-	}
-	static void lopen(int a){
-		System.out.println("lopen2-"+a);		
+		Fiets fiets = new Fiets();
+		fiets.fietsen();
 	}
 }
-class WWWB{
-	int a = gaan(true);
-	int gaan(boolean g){
-		return 24;
+
+class Fiets{
+	Bel bel;
+	void fietsen(){
+		bel.bellen();
+		System.out.println("ik fiets");
 	}
+
 }
-class VB extends WWWB{
-	int a = gaan(false);
-	int gaan(boolean t){
-		if(t){
-			System.out.println("lopen3");
-			return 7;
-		}else{
-			System.out.println("lopen5");
-		}
-		return 9;
+
+class Bel{
+	void bellen(){
+		System.out.println("ik ben aan het bellen");
+		throw new RuntimeException();
 	}
-	float gaan(char w){
-		System.out.println("lopen4");
-		return 6.3f;
-	}
-}
- 
+} 
