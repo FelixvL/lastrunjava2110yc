@@ -1,4 +1,4 @@
-class Demo{   //  WO
+class Demo{   //  WP
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
 		fiets.fietsen();
@@ -8,6 +8,7 @@ class Demo{   //  WO
 class Fiets{
 	Bel bel;
 	void fietsen(){
+		Bel bel;
 		bel.bellen();
 		System.out.println("ik fiets");
 	}
