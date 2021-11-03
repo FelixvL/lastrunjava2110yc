@@ -1,14 +1,13 @@
-class Demo{   //  WP
+class Demo{   //  WQ
 	final static public void main(String[] ab){
 		Fiets fiets = new Fiets();
-		fiets.fietsen();
+		System.out.println(fiets.bel);
 	}
 }
 
 class Fiets{
 	Bel bel;
 	void fietsen(){
-		Bel bel;
 		bel.bellen();
 		System.out.println("ik fiets");
 	}
