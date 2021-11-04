@@ -1,7 +1,7 @@
-class Demo{   //  XJ
+class Demo{   //  XK
 	final static public void main(String[] ab){
-		int[][][] a = {{},{},{},null};
-		System.out.println(a[0].length);
+		int[][][] a = {{3,8,5,2},{33,44,55,66},{1,2},null};
+		System.out.println(a[1].length);
 		
 	}
 }
