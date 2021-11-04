@@ -1,4 +1,4 @@
-class Demo{   //  XF
+class Demo{   //  XG
 	final static public void main(String[] ab){
 		Trial q = new Trial();
 		Trial w = q;
@@ -11,8 +11,6 @@ class Demo{   //  XF
 	}
 }
 class Trial{
-	 int b = abc();
-	 int a = 22;
 	Trial(){
 		System.out.println("hoi");
 	}
@@ -20,4 +18,7 @@ class Trial{
 		System.out.println("ff checken");
 		return a++;
 	}
+	 static int a = 22;
+	 int b = abc();
+
 }
