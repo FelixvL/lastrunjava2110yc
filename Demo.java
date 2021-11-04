@@ -3,11 +3,15 @@ class Demo{   //  XG
 		Trial q = new Trial();
 		Trial w = q;
 		q.a++;
-		new Trial();
-		new Trial();
+		Trial z = new Trial();
+		Trial zz = new Trial();
 		System.out.println(w.b);
 		System.out.println(w.a);
 		System.out.println("Einde");
+		System.out.println(z.a);
+		System.out.println(z.b);
+		System.out.println(zz.a);
+		System.out.println(zz.b);
 	}
 }
 class Trial{
