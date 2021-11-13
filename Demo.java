@@ -1,8 +1,8 @@
-class Demo{  // ZH
+class Demo{  // ZJ
 	public static void main(String[] args){
 		System.out.println("go");
 		int a = 3;
-		GGG fff = new GGG();
+		HHH fff = new HHH();
 		fff.fff(a);
 		System.out.println(fff.a);
 		System.out.println("e");
