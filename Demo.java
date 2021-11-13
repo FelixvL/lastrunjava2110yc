@@ -1,15 +1,17 @@
-class Demo{  // ZJ
+class Demo{  // ZK
 	public static void main(String[] args){
 		System.out.println("go");
-		int a = 3;
 		HHH fff = new HHH();
-		fff.fff(a);
-		System.out.println(fff.a);
+		GGG ggg = new HHH();
+		GGG hhh = new GGG();
 		System.out.println("e");
 	}
 }
 
 class GGG{
+	GGG(){
+		System.out.println("in ggg");
+	}
 	int a = 6;
 	void fff(int a){
 		System.out.println("vlakbij");
@@ -22,7 +24,9 @@ class GGG{
 	}
 }
 class HHH extends GGG{
-	int a = 2;
+	HHH(){
+		System.out.println("in hhh");
+	}
 	void fff(){
 		System.out.println("hier");
 		System.out.println(a);
