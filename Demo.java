@@ -1,9 +1,9 @@
-class Demo{  // ZL
+class Demo{  // ZM
 	public static void main(String[] args){
 		System.out.println("go");
 		HHH fff = new HHH();
 		GGG ggg = new HHH();
-		GGG hhh = new GGG("hoi");
+		GGG hhh = new GGG();
 		System.out.println(hhh.b);
 		System.out.println("e");
 	}
