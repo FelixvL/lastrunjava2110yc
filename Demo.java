@@ -1,9 +1,10 @@
-class Demo{  // ZF
+class Demo{  // ZG
 	public static void main(String[] args){
 		System.out.println("go");
 		int a = 3;
 		GGG fff = new HHH();
 		fff.fff(a);
+		System.out.println(fff.a);
 		System.out.println("e");
 	}
 }
@@ -19,6 +20,10 @@ class GGG{
 	void bbb(double g){
 		System.out.println("daar");
 		System.out.println(a);
+	}
+	void fff(){
+		System.out.println("ooit");
+		System.out.println(a);	
 	}
 }
 class HHH extends GGG{
