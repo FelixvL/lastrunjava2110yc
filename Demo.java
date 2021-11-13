@@ -1,19 +1,20 @@
-class Demo{  // ZN
+class Demo{  // ZO
 	public static void main(String[] args){
 		System.out.println("go");
 		HHH fff = new HHH();
 		GGG ggg = new HHH();
 		GGG hhh = new GGG();
-		System.out.println(hhh.b);
+		hhh.b("ai").fff();
 		System.out.println("e");
 	}
 }
 
 class GGG{
 	String b;
-	void b(String b){
+	GGG b(String b){
 		b = b;
 		System.out.println("in ggg");
+		return new GGG();
 	}
 	int a = 6;
 	void fff(int a){
