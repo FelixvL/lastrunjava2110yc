@@ -1,4 +1,4 @@
-class Demo{  // ZD
+class Demo{  // ZE
 	public static void main(String[] args){
 		System.out.println("go");
 		int a = 3;
@@ -14,7 +14,7 @@ class GGG{
 		System.out.println(a);
 		bbb(a);
 	}
-	void bbb(double a){
+	void bbb(double g){
 		System.out.println(a);
 	}
 }
