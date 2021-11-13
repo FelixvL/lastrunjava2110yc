@@ -1,4 +1,4 @@
-class Demo{  // ZM
+class Demo{  // ZN
 	public static void main(String[] args){
 		System.out.println("go");
 		HHH fff = new HHH();
@@ -11,7 +11,7 @@ class Demo{  // ZM
 
 class GGG{
 	String b;
-	void GGG(String b){
+	void b(String b){
 		b = b;
 		System.out.println("in ggg");
 	}
