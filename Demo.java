@@ -1,4 +1,4 @@
-class Demo{  // ZP
+class Demo{  // ZQ
 	public static void main(String[] args){
 		System.out.println("go");
 		HHH fff = new HHH();
@@ -11,7 +11,7 @@ class Demo{  // ZP
 class GGG{
 	String b;
 	GGG b(String b){
-		b = b;
+		this.b = b;
 		System.out.println("in ggg");
 		return new GGG();
 	}
@@ -29,6 +29,10 @@ class GGG{
 class HHH extends GGG{
 	HHH(){
 		System.out.println("in hhh");
+	}
+	HHH b(int a){
+		System.out.println("oeps");
+		return new HHH();
 	}
 	void fff(){
 		System.out.println("hier");
