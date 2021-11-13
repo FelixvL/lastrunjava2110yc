@@ -1,15 +1,18 @@
-class Demo{  // ZK
+class Demo{  // ZL
 	public static void main(String[] args){
 		System.out.println("go");
 		HHH fff = new HHH();
 		GGG ggg = new HHH();
-		GGG hhh = new GGG();
+		GGG hhh = new GGG("hoi");
+		System.out.println(hhh.b);
 		System.out.println("e");
 	}
 }
 
 class GGG{
-	GGG(){
+	String b;
+	void GGG(String b){
+		b = b;
 		System.out.println("in ggg");
 	}
 	int a = 6;
