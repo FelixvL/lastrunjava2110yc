@@ -1,3 +1,10 @@
+
+signature MOET hetzelfde zijn
+returntype MOET covariant zijn
+accesmodifier MAG NIET vernauwen
+(checked exception) De throws clausule MAG ALLEEN een covariant throwsen of NIETS
+
+
 class Demo{  // ZR
 	public static void main(String[] args){
 		System.out.println("go");
